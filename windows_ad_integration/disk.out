@@ -1,0 +1,210 @@
+ad1.e61f.internal | SUCCESS => {
+    "ansible_facts": {
+        "ansible_disks": [
+            {
+                "bootable": false, 
+                "bus_type": "SAS", 
+                "clustered": false, 
+                "firmware_version": "2.0 ", 
+                "friendly_name": "AWS PVDISK SCSI Disk Device", 
+                "guid": null, 
+                "location": "PCIROOT(0)#PCI(0300)#PCI(0300)#SAS(P00T01L00)", 
+                "manufacturer": "AWS     ", 
+                "model": "PVDISK          ", 
+                "number": 1, 
+                "operational_status": "Online", 
+                "partition_count": 1, 
+                "partition_style": "MBR", 
+                "partitions": [
+                    {
+                        "access_paths": [
+                            "D:\\", 
+                            "\\\\?\\Volume{661184c5-0277-11e9-8236-06b396a9232e}\\"
+                        ], 
+                        "active": false, 
+                        "drive_letter": "D", 
+                        "guid": null, 
+                        "hidden": false, 
+                        "mbr_type": 7, 
+                        "number": 1, 
+                        "offset": 1048576, 
+                        "shadow_copy": false, 
+                        "size": 21472739328, 
+                        "transition_state": 1, 
+                        "type": "IFS", 
+                        "volumes": [
+                            {
+                                "allocation_unit_size": 4096, 
+                                "drive_type": "Fixed", 
+                                "health_status": "Healthy", 
+                                "label": "", 
+                                "object_id": "\\\\?\\Volume{661184c5-0277-11e9-8236-06b396a9232e}\\", 
+                                "path": "\\\\?\\Volume{661184c5-0277-11e9-8236-06b396a9232e}\\", 
+                                "size": 21472735232, 
+                                "size_remaining": 21405151232, 
+                                "type": "NTFS"
+                            }
+                        ]
+                    }
+                ], 
+                "path": "\\\\?\\scsi#disk&ven_aws&prod_pvdisk#000100#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}", 
+                "physical_disk": {
+                    "allocated_size": 21474836480, 
+                    "bus_type": "SAS", 
+                    "can_pool": false, 
+                    "cannot_pool_reason": "Insufficient Capacity", 
+                    "device_id": "1", 
+                    "firmware_version": "2.0 ", 
+                    "friendly_name": "PhysicalDisk1", 
+                    "health_status": "Healthy", 
+                    "indication_enabled": null, 
+                    "manufacturer": "AWS     ", 
+                    "media_type": "UnSpecified", 
+                    "model": "PVDISK          ", 
+                    "object_id": "{1}\\\\WIN-AC2VT4ECD8G\\root/Microsoft/Windows/Storage/Providers_v2\\SPACES_PhysicalDisk.ObjectId=\"{7870c43d-01ea-11e9-8234-806e6f6e6963}:PD:{5f439b5f-0886-7043-da9e-86e99d0ae619}\"", 
+                    "operational_status": "OK", 
+                    "partial": true, 
+                    "physical_location": null, 
+                    "serial_number": "vol0932a4420311c1b4e", 
+                    "size": 21474836480, 
+                    "spindle_speed": 4294967295, 
+                    "supported_usages": {
+                        "Count": 5, 
+                        "value": [
+                            "Auto-Select", 
+                            "Manual-Select", 
+                            "Hot Spare", 
+                            "Retired", 
+                            "Journal"
+                        ]
+                    }, 
+                    "unique_id": "vol0932a4420311c1b4e", 
+                    "usage_type": "Auto-Select"
+                }, 
+                "read_only": false, 
+                "sector_size": 512, 
+                "serial_number": "vol0932a4420311c1b4e", 
+                "size": 21474836480, 
+                "system_disk": false, 
+                "unique_id": "vol0932a4420311c1b4e"
+            }, 
+            {
+                "bootable": true, 
+                "bus_type": "SAS", 
+                "clustered": false, 
+                "firmware_version": "2.0 ", 
+                "friendly_name": "AWS PVDISK SCSI Disk Device", 
+                "guid": null, 
+                "location": "PCIROOT(0)#PCI(0300)#PCI(0300)#SAS(P00T00L00)", 
+                "manufacturer": "AWS     ", 
+                "model": "PVDISK          ", 
+                "number": 0, 
+                "operational_status": "Online", 
+                "partition_count": 2, 
+                "partition_style": "MBR", 
+                "partitions": [
+                    {
+                        "access_paths": [
+                            "\\\\?\\Volume{7870c441-01ea-11e9-8234-806e6f6e6963}\\"
+                        ], 
+                        "active": true, 
+                        "drive_letter": null, 
+                        "guid": null, 
+                        "hidden": false, 
+                        "mbr_type": 7, 
+                        "number": 1, 
+                        "offset": 1048576, 
+                        "shadow_copy": false, 
+                        "size": 367001600, 
+                        "transition_state": 1, 
+                        "type": "IFS", 
+                        "volumes": [
+                            {
+                                "allocation_unit_size": 4096, 
+                                "drive_type": "Fixed", 
+                                "health_status": "Healthy", 
+                                "label": "", 
+                                "object_id": "\\\\?\\Volume{7870c441-01ea-11e9-8234-806e6f6e6963}\\", 
+                                "path": "\\\\?\\Volume{7870c441-01ea-11e9-8234-806e6f6e6963}\\", 
+                                "size": 366997504, 
+                                "size_remaining": 92213248, 
+                                "type": "NTFS"
+                            }
+                        ]
+                    }, 
+                    {
+                        "access_paths": [
+                            "C:\\", 
+                            "\\\\?\\Volume{7870c442-01ea-11e9-8234-806e6f6e6963}\\"
+                        ], 
+                        "active": false, 
+                        "drive_letter": "C", 
+                        "guid": null, 
+                        "hidden": false, 
+                        "mbr_type": 7, 
+                        "number": 2, 
+                        "offset": 368050176, 
+                        "shadow_copy": false, 
+                        "size": 53317992448, 
+                        "transition_state": 1, 
+                        "type": "IFS", 
+                        "volumes": [
+                            {
+                                "allocation_unit_size": 4096, 
+                                "drive_type": "Fixed", 
+                                "health_status": "Healthy", 
+                                "label": "", 
+                                "object_id": "\\\\?\\Volume{7870c442-01ea-11e9-8234-806e6f6e6963}\\", 
+                                "path": "\\\\?\\Volume{7870c442-01ea-11e9-8234-806e6f6e6963}\\", 
+                                "size": 53317988352, 
+                                "size_remaining": 30150967296, 
+                                "type": "NTFS"
+                            }
+                        ]
+                    }
+                ], 
+                "path": "\\\\?\\scsi#disk&ven_aws&prod_pvdisk#000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}", 
+                "physical_disk": {
+                    "allocated_size": 53687091200, 
+                    "bus_type": "SAS", 
+                    "can_pool": false, 
+                    "cannot_pool_reason": "Insufficient Capacity", 
+                    "device_id": "0", 
+                    "firmware_version": "2.0 ", 
+                    "friendly_name": "PhysicalDisk0", 
+                    "health_status": "Healthy", 
+                    "indication_enabled": null, 
+                    "manufacturer": "AWS     ", 
+                    "media_type": "UnSpecified", 
+                    "model": "PVDISK          ", 
+                    "object_id": "{1}\\\\WIN-AC2VT4ECD8G\\root/Microsoft/Windows/Storage/Providers_v2\\SPACES_PhysicalDisk.ObjectId=\"{7870c43d-01ea-11e9-8234-806e6f6e6963}:PD:{eb71e134-eb4e-6833-be57-46f2cf4e4a7a}\"", 
+                    "operational_status": "OK", 
+                    "partial": true, 
+                    "physical_location": null, 
+                    "serial_number": "vol0a03d7b23d652cb75", 
+                    "size": 53687091200, 
+                    "spindle_speed": 4294967295, 
+                    "supported_usages": {
+                        "Count": 5, 
+                        "value": [
+                            "Auto-Select", 
+                            "Manual-Select", 
+                            "Hot Spare", 
+                            "Retired", 
+                            "Journal"
+                        ]
+                    }, 
+                    "unique_id": "vol0a03d7b23d652cb75", 
+                    "usage_type": "Auto-Select"
+                }, 
+                "read_only": false, 
+                "sector_size": 512, 
+                "serial_number": "vol0a03d7b23d652cb75", 
+                "size": 53687091200, 
+                "system_disk": true, 
+                "unique_id": "vol0a03d7b23d652cb75"
+            }
+        ]
+    }, 
+    "changed": false
+}
